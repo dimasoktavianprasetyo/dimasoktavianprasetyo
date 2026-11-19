@@ -41,6 +41,8 @@
 
 ### `// ARSENAL & WEAPONRY`
 
+> *"Where scattered instruments collide in the dark, a living mind takes shape, wiring raw code, silent forensics, and decentralized trust into one pulse, turning every scar of collision into quiet mastery, leaving only clean logic behind, long after the lights gently dissolve back into the void, endlessly evolving in the quiet until silence itself becomes the blueprint for whatever stands in tomorrow."*
+
 <!-- 4D NEURAL PLEXUS HYPER-SYNAPTIC TOPOLOGY OF SKILLS & TOOLS -->
 <p align="center">
   <img src="./assets/neural-plexus-4d.svg" alt="4D Neural Plexus Skill Topology" width="100%" />
@@ -74,7 +76,7 @@
 <!-- ANIMATED CONTRIBUTION SNAKE (Membutuhkan workflow .github/workflows/snake.yml) -->
 ### `// CONTRIBUTION PAYLOAD INGESTION`
 
-> *"Every commit is a pulse in a lifelong archive of creation, spanning personal R&D, resilient architectures, and borderless engineering. Driven by an unyielding pursuit of mastery, each line of code is forged to nurture continuous growth and contribute meaningfully to the advancement of technology on the global stage."*
+> *"Every commit is a long breath in a builder's lifelong chronicle, uniting personal R&D, resilient systems, and borderless engineering. Driven by a love for a craft one never finishes learning, each line of code is forged to keep growing, and to carry a small light for the world's technological civilization, across all time."*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/dimasoktavianprasetyo/dimasoktavianprasetyo/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />

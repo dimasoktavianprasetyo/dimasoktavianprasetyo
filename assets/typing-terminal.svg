@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 160" width="840" height="160">
+  <defs>
+    <style><![CDATA[
+      .term {
+        font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    ]]></style>
+
+    <clipPath id="clipLine1">
+      <rect x="4" y="4" width="0" height="30">
+        <animate attributeName="width" dur="14s" repeatCount="indefinite"
+                 keyTimes="0; 0.15; 0.96; 1"
+                 values="0; 832; 832; 0"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine2">
+      <rect x="4" y="34" width="0" height="30">
+        <animate attributeName="width" dur="14s" repeatCount="indefinite"
+                 keyTimes="0; 0.16; 0.32; 0.96; 1"
+                 values="0; 0; 832; 832; 0"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine3">
+      <rect x="4" y="64" width="0" height="30">
+        <animate attributeName="width" dur="14s" repeatCount="indefinite"
+                 keyTimes="0; 0.33; 0.48; 0.96; 1"
+                 values="0; 0; 832; 832; 0"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine4">
+      <rect x="4" y="94" width="0" height="30">
+        <animate attributeName="width" dur="14s" repeatCount="indefinite"
+                 keyTimes="0; 0.51; 0.66; 0.96; 1"
+                 values="0; 0; 832; 832; 0"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine5">
+      <rect x="4" y="124" width="0" height="30">
+        <animate attributeName="width" dur="14s" repeatCount="indefinite"
+                 keyTimes="0; 0.67; 0.81; 0.96; 1"
+                 values="0; 0; 832; 832; 0"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g>
+    <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+             keyTimes="0; 0.02; 0.92; 0.96; 1"
+             values="0; 1; 1; 0; 0"/>
+
+    <text x="420" y="26" text-anchor="middle" class="term" fill="#00FF41" clip-path="url(#clipLine1)">
+      [ $ whoami ] &gt;&gt; IT Professional of System Architect | Full-Stack Go &amp; Java Dev
+    </text>
+
+    <text x="420" y="56" text-anchor="middle" class="term" fill="#00FF41" clip-path="url(#clipLine2)">
+      [ $ cat /etc/roles ] &gt;&gt; SWE | DevSecOps | DFIR | Blockchain/Web3 Dev &amp; Cyber Security
+    </text>
+
+    <text x="420" y="86" text-anchor="middle" class="term" fill="#00FF41" clip-path="url(#clipLine3)">
+      [ $ echo $MODE ] &gt;&gt; 0xDEADBEEF :: ARCHITECTING, SECURING &amp; INVESTIGATING
+    </text>
+
+    <text x="420" y="116" text-anchor="middle" class="term" fill="#FF0055" clip-path="url(#clipLine4)">
+      [ $ ./credo ] &gt;&gt; Build Better. Ship Fast. Scale Hard. Secure Everything.
+    </text>
+
+    <text x="420" y="146" text-anchor="middle" class="term" fill="#FF0055" clip-path="url(#clipLine5)">
+      [ $ ./directive ] &gt;&gt; Zero Trust :: High Availability :: Forensic-Grade Code
+    </text>
+  </g>
+</svg>

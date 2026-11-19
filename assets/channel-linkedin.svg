@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 88" width="284" height="88">
+  <defs>
+    <linearGradient id="bgLi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="55%" stop-color="#081320"/>
+      <stop offset="100%" stop-color="#05070e"/>
+    </linearGradient>
+    <linearGradient id="liAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f3ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="gridLi" width="14" height="14" patternUnits="userSpaceOnUse">
+      <path d="M 14 0 L 0 0 0 14" fill="none" stroke="#00f3ff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clipLi">
+      <rect width="284" height="88" rx="9"/>
+    </clipPath>
+    <style><![CDATA[
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+      .scan { animation: scanSlide 4.8s linear infinite -2.1s; }
+      @keyframes scanSlide {
+        0%   { transform: translateX(-110px); }
+        100% { transform: translateX(310px); }
+      }
+      .led { animation: ledPulse 1.8s ease-in-out infinite -0.8s; }
+      @keyframes ledPulse {
+        0%, 100% { opacity: 1; }
+        50%      { opacity: 0.28; }
+      }
+    ]]></style>
+  </defs>
+
+  <g clip-path="url(#clipLi)">
+    <rect width="284" height="88" rx="9" fill="url(#bgLi)"/>
+    <rect width="284" height="88" rx="9" fill="url(#gridLi)"/>
+    <rect x="0" y="0" width="90" height="88" fill="url(#liAccent)" class="scan"/>
+
+    <rect x="1" y="1" width="282" height="86" rx="8.5" fill="none" stroke="#00f3ff" stroke-opacity="0.24" stroke-width="1"/>
+    <path d="M2 13 L2 2 L13 2 M271 2 L282 2 L282 13 M2 75 L2 86 L13 86 M271 86 L282 86 L282 75"
+          fill="none" stroke="#00f3ff" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Icon Module -->
+    <circle cx="38" cy="44" r="20" fill="#00f3ff" fill-opacity="0.06" stroke="#00f3ff" stroke-opacity="0.32" stroke-width="1.1"/>
+    <g transform="translate(26, 32)">
+      <path fill="#00f3ff" d="M19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3zM8.34 18.34H5.67V9.75h2.67v8.59zM7 8.58a1.55 1.55 0 1 1 0-3.1 1.55 1.55 0 0 1 0 3.1zM18.34 18.34h-2.67v-4.18c0-1-.02-2.28-1.39-2.28-1.39 0-1.6 1.09-1.6 2.21v4.25h-2.67V9.75h2.56v1.17h.04c.36-.68 1.23-1.39 2.53-1.39 2.7 0 3.2 1.78 3.2 4.09v4.72z"/>
+    </g>
+
+    <!-- Header -->
+    <text x="68" y="25" class="mono" font-size="9.5" fill="#00f3ff" letter-spacing="1.1" font-weight="bold">04 // LINKEDIN</text>
+    <circle cx="264" cy="21" r="2.5" fill="#00f3ff" class="led"/>
+
+    <!-- Main Handle -->
+    <text x="68" y="49" class="mono" font-size="11.8" font-weight="bold" fill="#f0f6fc">in/dimasoktavianprasetyo</text>
+
+    <!-- Footer -->
+    <line x1="68" y1="60" x2="270" y2="60" stroke="#00f3ff" stroke-opacity="0.16" stroke-width="1"/>
+    <text x="68" y="74" class="mono" font-size="9" fill="#8b949e">EXEC NETWORK</text>
+    <text x="270" y="74" class="mono" font-size="9" fill="#00f3ff" text-anchor="end" font-weight="bold">[ CONNECT → ]</text>
+  </g>
+</svg>
+

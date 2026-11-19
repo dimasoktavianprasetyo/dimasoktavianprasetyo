@@ -5,9 +5,7 @@
 
 <!-- ANIMATED MULTI-LINE TYPING TERMINAL -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=840&height=95&lines=%5B+%24+whoami+%5D+%3E%3E+IT+Professional+of+System+Architect+%7C+Full-Stack+Go+%26+Java+Dev;%5B+%24+cat+%2Fetc%2Froles+%5D+%3E%3E+SWE+%7C+DevSecOps+%7C+DFIR+%7C+Blockchain/Web3+Dev+%26+Cyber+Security%3B%5B+%24+echo+%24MODE+%5D+%3E%3E+0xDEADBEEF+%3A%3A+ARCHITECTING%2C+SECURING+%26+INVESTIGATING" alt="Typing SVG" />
-  </a>
+  <img src="./assets/typing-terminal.svg" alt="Animated Typing Terminal" />
 </p>
 
 <p align="center">
@@ -90,21 +88,25 @@
   <i>"Every groundbreaking system begins with a single connection. I dream of a future we write together, where code is so remarkably alive that it bridges minds across borders and turns bold visions into reality. Reach out through any of the channels below, let’s connect, collaborate, and engineer the future together."</i>
 </p>
 
+<!-- CUSTOM ANIMATED CYBER-OPS CHANNEL CONSOLE -->
 <p align="center">
   <a href="https://www.dimasoktavianprasetyo.com">
-    <img src="https://img.shields.io/badge/WWW.DIMASOKTAVIANPRASETYO.COM-060911?style=for-the-badge&logo=googlechrome&logoColor=FFD700" alt="Website" />
-  </a>
-  <a href="https://github.com/dimasoktavianprasetyo">
-    <img src="https://img.shields.io/badge/GITHUB-060911?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub" />
-  </a>
-  <a href="https://linkedin.com/in/dimasoktavianprasetyo">
-    <img src="https://img.shields.io/badge/LINKEDIN-060911?style=for-the-badge&logo=htmx&logoColor=00F3FF" alt="LinkedIn" />
-  </a>
-  <a href="https://instagram.com/benkbenkers">
-    <img src="https://img.shields.io/badge/IG_%40BENKBENKERS-060911?style=for-the-badge&logo=instagram&logoColor=FF0055" alt="Instagram" />
+    <img src="./assets/channel-web.svg" alt="Website - dimasoktavianprasetyo.com" width="48%" />
   </a>
   <a href="mailto:halo@dimasoktavianprasetyo.com">
-    <img src="https://img.shields.io/badge/HALO%40DIMASOKTAVIANPRASETYO.COM-060911?style=for-the-badge&logo=maildotru&logoColor=00FF41" alt="Email" />
+    <img src="./assets/channel-email.svg" alt="Email - halo@dimasoktavianprasetyo.com" width="48%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/dimasoktavianprasetyo">
+    <img src="./assets/channel-github.svg" alt="GitHub - @dimasoktavianprasetyo" width="32%" />
+  </a>
+  <a href="https://linkedin.com/in/dimasoktavianprasetyo">
+    <img src="./assets/channel-linkedin.svg" alt="LinkedIn - in/dimasoktavianprasetyo" width="32%" />
+  </a>
+  <a href="https://instagram.com/benkbenkers">
+    <img src="./assets/channel-instagram.svg" alt="Instagram - @benkbenkers" width="32%" />
   </a>
 </p>
 

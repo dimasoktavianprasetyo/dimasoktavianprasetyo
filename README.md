@@ -6,7 +6,7 @@
 <!-- ANIMATED MULTI-LINE TYPING TERMINAL -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=840&height=95&lines=%5B+%24+whoami+%5D+%3E%3E+IT+Professional+of+System+Architect+%7C+Full-Stack+Go+%26+Java+Dev;%5B+%24+cat+%2Fetc%2Froles+%5D+%3E%3E+SWE+of+Forensic+Investigator+%7C+Blockchain+Dev+%26+Cyber+Specialist;%5B+%24+echo+%24MODE+%5D+%3E%3E+0xDEADBEEF+%3A%3A+ARCHITECTING%2C+SECURING+%26+INVESTIGATING" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=840&height=95&lines=%5B+%24+whoami+%5D+%3E%3E+IT+Professional+of+System+Architect+%7C+Full-Stack+Go+%26+Java+Dev;%5B+%24+cat+%2Fetc%2Froles+%5D+%3E%3E+SWE+%7C+DevSecOps+%7C+DFIR+%7C+Blockchain/Web3+Dev+%26+Cyber+Security%3B%5B+%24+echo+%24MODE+%5D+%3E%3E+0xDEADBEEF+%3A%3A+ARCHITECTING%2C+SECURING+%26+INVESTIGATING" alt="Typing SVG" />
   </a>
 </p>
 
@@ -87,7 +87,7 @@
 ### `// CONNECT & COLLABORATE`
 
 <p align="center">
-  <i>"Every groundbreaking system begins with a single connection.<br/>Reach out through any of the channels below, let’s connect, collaborate, and engineer the future together."</i>
+  <i>"Every groundbreaking system begins with a single connection. I dream of a future we write together, where code is so remarkably alive that it bridges minds across borders and turns bold visions into reality. Reach out through any of the channels below, let’s connect, collaborate, and engineer the future together."</i>
 </p>
 
 <p align="center">

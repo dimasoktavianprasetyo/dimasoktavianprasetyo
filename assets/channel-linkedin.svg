@@ -9,9 +9,8 @@
       <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect x="1" y="1" width="52" height="52" rx="13" fill="url(#bgL)" stroke="#00f3ff" stroke-opacity="0.38" stroke-width="1.2"/>
+  <rect x="1" y="1" width="52" height="52" rx="13" fill="url(#bgL)" stroke="#ffffff" stroke-opacity="0.75" stroke-width="1.4"/>
   <circle cx="27" cy="27" r="22" fill="url(#glL)"/>
-  <path d="M2 10 L2 2 L10 2 M44 2 L52 2 L52 10 M2 44 L2 52 L10 52 M44 52 L52 52 L52 44" fill="none" stroke="#00f3ff" stroke-width="1.5" stroke-linecap="round"/>
   <g transform="translate(15, 15)">
     <path fill="#00f3ff" d="M19.5 3h-15A1.5 1.5 0 0 0 3 4.5v15A1.5 1.5 0 0 0 4.5 21h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 19.5 3zM8.34 18.34H5.67V9.75h2.67v8.59zM7 8.58a1.55 1.55 0 1 1 0-3.1 1.55 1.55 0 0 1 0 3.1zM18.34 18.34h-2.67v-4.18c0-1-.02-2.28-1.39-2.28-1.39 0-1.6 1.09-1.6 2.21v4.25h-2.67V9.75h2.56v1.17h.04c.36-.68 1.23-1.39 2.53-1.39 2.7 0 3.2 1.78 3.2 4.09v4.72z"/>
   </g>

@@ -30,19 +30,10 @@
   <img src="./assets/mafia-syndicate.svg" alt="Cyber Mafia Syndicate" width="100%" />
 </p>
 
-```yaml
-# root@github:~# neofetch --profile
-user:        dimasoktavianprasetyo
-roles:
-  - "IT Professional of System Architect"
-  - "SWE of Forensic Investigator"
-  - "Blockchain Dev & Cyber Specialist"
-  - "Full-Stack Golang / Java Developer"
-location:    Indonesia [UTC+7]
-current_op:  "Architecting distributed systems, smart contracts & digital forensics"
-weapons:     Golang, Java, Spring, Solidity, Rust, TypeScript, Python, Linux, Docker, K8s
-motto:       "Talk is cheap. Show me the packet capture & memory dump."
-```
+<!-- KALI LINUX ZSH NEOFETCH TERMINAL -->
+<p align="center">
+  <img src="./assets/neofetch-command.svg" alt="Kali Linux Neofetch Terminal" width="100%" />
+</p>
 
 <p align="center">
   <img src="./assets/neon-divider.svg" width="100%" />

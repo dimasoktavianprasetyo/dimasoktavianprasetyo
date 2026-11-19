@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04070d"/>
+      <stop offset="50%" stop-color="#07101f"/>
+      <stop offset="100%" stop-color="#03060a"/>
+    </linearGradient>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00ff41" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="hudClip">
+      <rect x="130" y="32" width="640" height="216" rx="8"/>
+    </clipPath>
+    <style><![CDATA[
+      .mono { font-family: 'Courier New', Consolas, monospace; }
+      .rain { font-family: 'Courier New', monospace; font-size: 13px; fill: #00ff41; font-weight: bold; }
+      .r1 { animation: fall 4.2s linear infinite; }
+      .r2 { animation: fall 3.4s linear infinite -1.5s; fill: #00f3ff; }
+      .r3 { animation: fall 5.1s linear infinite -2.8s; }
+      .r4 { animation: fall 3.8s linear infinite -0.7s; }
+      .r5 { animation: fall 4.7s linear infinite -3.2s; fill: #00f3ff; }
+      .r6 { animation: fall 3.1s linear infinite -1.1s; }
+      @keyframes fall {
+        0%   { transform: translateY(-140px); opacity: 0; }
+        15%  { opacity: 0.75; }
+        85%  { opacity: 0.75; }
+        100% { transform: translateY(310px); opacity: 0; }
+      }
+      .glitch-cyan { animation: gCyan 2.6s infinite steps(2, end); }
+      .glitch-mag  { animation: gMag 2.6s infinite steps(2, end); }
+      @keyframes gCyan {
+        0%, 82%, 100% { transform: translate(0, 0); opacity: 0.6; }
+        84% { transform: translate(-4px, -2px); opacity: 0.9; }
+        88% { transform: translate(3px, 1px); opacity: 0.8; }
+        92% { transform: translate(-2px, 2px); opacity: 0.9; }
+      }
+      @keyframes gMag {
+        0%, 80%, 100% { transform: translate(0, 0); opacity: 0.6; }
+        83% { transform: translate(4px, 2px); opacity: 0.9; }
+        87% { transform: translate(-3px, -1px); opacity: 0.8; }
+        91% { transform: translate(2px, -2px); opacity: 0.9; }
+      }
+      .scanline { animation: scan 3.5s linear infinite; }
+      @keyframes scan {
+        0%   { transform: translateY(34px); opacity: 0; }
+        10%  { opacity: 0.9; }
+        90%  { opacity: 0.9; }
+        100% { transform: translateY(246px); opacity: 0; }
+      }
+      .blink { animation: blinkAnim 1s step-end infinite; }
+      @keyframes blinkAnim {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+      .pulse-ring { animation: pulseRing 2.2s ease-out infinite; transform-origin: 162px 58px; }
+      @keyframes pulseRing {
+        0%   { transform: scale(0.8); opacity: 0.9; }
+        100% { transform: scale(2.1); opacity: 0; }
+      }
+    ]]></style>
+  </defs>
+
+  <!-- Background & Cyber Grid -->
+  <rect width="900" height="280" rx="12" fill="url(#bgGrad)"/>
+  <rect width="900" height="280" rx="12" fill="url(#grid)"/>
+
+  <!-- Matrix Digital Rain Columns -->
+  <g class="rain r1"><text x="30" y="0">01<tspan x="30" dy="18">A7</tspan><tspan x="30" dy="18">10</tspan><tspan x="30" dy="18">FF</tspan><tspan x="30" dy="18">0x</tspan><tspan x="30" dy="18">9C</tspan><tspan x="30" dy="18">01</tspan></text></g>
+  <g class="rain r2"><text x="78" y="0">11<tspan x="78" dy="18">00</tspan><tspan x="78" dy="18">E4</tspan><tspan x="78" dy="18">7F</tspan><tspan x="78" dy="18">10</tspan><tspan x="78" dy="18">2B</tspan><tspan x="78" dy="18">01</tspan></text></g>
+  <g class="rain r3"><text x="115" y="0">FF<tspan x="115" dy="18">01</tspan><tspan x="115" dy="18">3D</tspan><tspan x="115" dy="18">11</tspan><tspan x="115" dy="18">C8</tspan><tspan x="115" dy="18">00</tspan></text></g>
+  <g class="rain r4"><text x="785" y="0">0x<tspan x="785" dy="18">1F</tspan><tspan x="785" dy="18">01</tspan><tspan x="785" dy="18">A9</tspan><tspan x="785" dy="18">10</tspan><tspan x="785" dy="18">E2</tspan><tspan x="785" dy="18">00</tspan></text></g>
+  <g class="rain r5"><text x="825" y="0">8B<tspan x="825" dy="18">10</tspan><tspan x="825" dy="18">FF</tspan><tspan x="825" dy="18">01</tspan><tspan x="825" dy="18">4A</tspan><tspan x="825" dy="18">11</tspan></text></g>
+  <g class="rain r6"><text x="862" y="0">01<tspan x="862" dy="18">D3</tspan><tspan x="862" dy="18">00</tspan><tspan x="862" dy="18">7A</tspan><tspan x="862" dy="18">11</tspan><tspan x="862" dy="18">F0</tspan><tspan x="862" dy="18">01</tspan></text></g>
+
+  <!-- Central Terminal HUD Frame -->
+  <rect x="130" y="32" width="640" height="216" rx="8" fill="#060b14" fill-opacity="0.9" stroke="#00ff41" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <!-- Corner Brackets -->
+  <path d="M130 52 L130 32 L155 32 M745 32 L770 32 L770 52 M130 228 L130 248 L155 248 M745 248 L770 248 L770 228" fill="none" stroke="#00f3ff" stroke-width="2.5"/>
+
+  <!-- Top Status Bar -->
+  <circle cx="162" cy="58" r="5" fill="#00ff41"/>
+  <circle cx="162" cy="58" r="5" fill="none" stroke="#00ff41" stroke-width="1.5" class="pulse-ring"/>
+  <text x="178" y="62" class="mono" font-size="11" fill="#00ff41" letter-spacing="1.2">SYS.ONLINE // dimas@github:~# ./init_profile.sh</text>
+  <text x="748" y="62" class="mono" font-size="11" fill="#00f3ff" text-anchor="end">NODE: 127.0.0.1</text>
+  <line x1="145" y1="76" x2="755" y2="76" stroke="#00ff41" stroke-opacity="0.22" stroke-width="1"/>
+
+  <!-- Glitch RGB Hero Title -->
+  <text x="450" y="142" class="mono glitch-cyan" font-size="36" font-weight="900" text-anchor="middle" fill="#00f3ff" letter-spacing="2.5">&lt;DIMAS_OKTAVIAN/&gt;</text>
+  <text x="450" y="142" class="mono glitch-mag"  font-size="36" font-weight="900" text-anchor="middle" fill="#ff0055" letter-spacing="2.5">&lt;DIMAS_OKTAVIAN/&gt;</text>
+  <text x="450" y="142" class="mono"            font-size="36" font-weight="900" text-anchor="middle" fill="#e6fff2" letter-spacing="2.5">&lt;DIMAS_OKTAVIAN/&gt;</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="176" class="mono" font-size="11.5" text-anchor="middle" fill="#8fa8be" letter-spacing="1.1">
+    FULL-STACK GO/JAVA ARCHITECT  |  SECURITY ENGINEER  |  BLOCKCHAIN DEV
+  </text>
+
+  <!-- Bottom Terminal Prompt -->
+  <rect x="155" y="198" width="590" height="32" rx="4" fill="#0b1322" stroke="#1e2d44" stroke-width="1"/>
+  <text x="170" y="218" class="mono" font-size="12" fill="#00ff41">
+    [OK] ACCESS GRANTED — ENCRYPTION: AES-256-GCM — COFFEE: 99%
+  </text>
+  <rect x="612" y="207" width="8" height="14" fill="#00f3ff" class="blink"/>
+
+  <!-- Moving Scanline inside HUD -->
+  <g clip-path="url(#hudClip)">
+    <rect x="130" y="0" width="640" height="2" fill="url(#laserGrad)" class="scanline"/>
+  </g>
+</svg>

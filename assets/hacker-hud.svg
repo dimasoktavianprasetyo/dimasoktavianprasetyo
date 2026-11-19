@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="100%" height="250">
+  <defs>
+    <linearGradient id="sweepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0.45"/>
+    </linearGradient>
+    <clipPath id="logClip">
+      <rect x="615" y="45" width="265" height="150"/>
+    </clipPath>
+    <style><![CDATA[
+      .mono { font-family: 'Courier New', Consolas, monospace; }
+      .bar { fill: #00f3ff; transform-box: fill-box; transform-origin: bottom; }
+      .b1 { animation: eq 0.9s ease-in-out infinite alternate; }
+      .b2 { animation: eq 0.6s ease-in-out infinite alternate -0.2s; fill: #00ff41; }
+      .b3 { animation: eq 1.1s ease-in-out infinite alternate -0.5s; }
+      .b4 { animation: eq 0.7s ease-in-out infinite alternate -0.1s; fill: #ff0055; }
+      .b5 { animation: eq 0.85s ease-in-out infinite alternate -0.4s; fill: #00ff41; }
+      .b6 { animation: eq 0.55s ease-in-out infinite alternate -0.3s; }
+      @keyframes eq {
+        0%   { transform: scaleY(0.2); opacity: 0.55; }
+        100% { transform: scaleY(1.0); opacity: 1; }
+      }
+      .wave {
+        stroke-dasharray: 280;
+        animation: waveMove 2.4s linear infinite;
+      }
+      @keyframes waveMove {
+        0%   { stroke-dashoffset: 560; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .log-scroll {
+        animation: scrollUp 9s linear infinite;
+      }
+      @keyframes scrollUp {
+        0%   { transform: translateY(0px); }
+        100% { transform: translateY(-132px); }
+      }
+      .load-bar {
+        transform-box: fill-box;
+        transform-origin: left;
+        animation: loadAnim 3.2s ease-in-out infinite;
+      }
+      @keyframes loadAnim {
+        0%   { transform: scaleX(0.15); }
+        50%  { transform: scaleX(0.95); }
+        100% { transform: scaleX(0.15); }
+      }
+    ]]></style>
+  </defs>
+
+  <!-- Main Container -->
+  <rect width="900" height="250" rx="10" fill="#060911" stroke="#162235" stroke-width="1.5"/>
+
+  <!-- PANEL 1: CYBER RADAR -->
+  <rect x="12" y="12" width="275" height="226" rx="8" fill="#090e1a" stroke="#00ff41" stroke-opacity="0.3"/>
+  <text x="24" y="32" class="mono" font-size="11" fill="#00ff41">[01] THREAT_RADAR.SYS</text>
+  <circle cx="150" cy="134" r="76" fill="none" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="150" cy="134" r="50" fill="none" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+  <circle cx="150" cy="134" r="24" fill="none" stroke="#00ff41" stroke-opacity="0.2" stroke-width="1"/>
+  <line x1="74" y1="134" x2="226" y2="134" stroke="#00ff41" stroke-opacity="0.18"/>
+  <line x1="150" y1="58" x2="150" y2="210" stroke="#00ff41" stroke-opacity="0.18"/>
+
+  <!-- Rotating Radar Wedge -->
+  <g>
+    <path d="M150,134 L150,58 A76,76 0 0,1 215,95 Z" fill="url(#sweepGrad)"/>
+    <line x1="150" y1="134" x2="150" y2="58" stroke="#00ff41" stroke-width="1.8"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 150 134" to="360 150 134" dur="3.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Pulsing Targets -->
+  <circle cx="182" cy="98" r="3.5" fill="#ff0055">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="116" cy="162" r="3.5" fill="#00f3ff">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="188" cy="165" r="3" fill="#00ff41">
+    <animate attributeName="r" values="2;5;2" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- PANEL 2: NETWORK WAVEFORM & EQUALIZER -->
+  <rect x="300" y="12" width="290" height="226" rx="8" fill="#090e1a" stroke="#00f3ff" stroke-opacity="0.3"/>
+  <text x="314" y="32" class="mono" font-size="11" fill="#00f3ff">[02] PACKET_TRAFFIC // 4.8 Gbps</text>
+
+  <!-- Animated Oscilloscope -->
+  <path d="M315,92 Q335,55 355,92 T395,92 T435,92 T475,92 T515,92 T555,92 L575,92"
+        fill="none" stroke="#00f3ff" stroke-width="2" class="wave"/>
+  <path d="M315,92 Q335,120 355,92 T395,92 T435,92 T475,92 T515,92 T555,92 L575,92"
+        fill="none" stroke="#ff0055" stroke-width="1.4" stroke-opacity="0.7" class="wave"/>
+
+  <!-- Equalizer Bars -->
+  <rect x="318" y="140" width="12" height="72" rx="2" class="bar b1"/>
+  <rect x="336" y="140" width="12" height="72" rx="2" class="bar b2"/>
+  <rect x="354" y="140" width="12" height="72" rx="2" class="bar b3"/>
+  <rect x="372" y="140" width="12" height="72" rx="2" class="bar b4"/>
+  <rect x="390" y="140" width="12" height="72" rx="2" class="bar b5"/>
+  <rect x="408" y="140" width="12" height="72" rx="2" class="bar b6"/>
+  <rect x="426" y="140" width="12" height="72" rx="2" class="bar b2"/>
+  <rect x="444" y="140" width="12" height="72" rx="2" class="bar b1"/>
+  <rect x="462" y="140" width="12" height="72" rx="2" class="bar b4"/>
+  <rect x="480" y="140" width="12" height="72" rx="2" class="bar b3"/>
+  <rect x="498" y="140" width="12" height="72" rx="2" class="bar b5"/>
+  <rect x="516" y="140" width="12" height="72" rx="2" class="bar b6"/>
+  <rect x="534" y="140" width="12" height="72" rx="2" class="bar b2"/>
+  <rect x="552" y="140" width="12" height="72" rx="2" class="bar b1"/>
+
+  <!-- PANEL 3: LIVE KERNEL LOG STREAM -->
+  <rect x="603" y="12" width="285" height="226" rx="8" fill="#090e1a" stroke="#ff0055" stroke-opacity="0.35"/>
+  <text x="615" y="32" class="mono" font-size="11" fill="#ff0055">[03] LIVE_KERNEL_STREAM</text>
+
+  <g clip-path="url(#logClip)">
+    <g class="mono log-scroll" font-size="10.5" fill="#9fb6c8">
+      <text x="615" y="60"><tspan fill="#00ff41">[OK]</tspan> Mounting /dev/coffee0</text>
+      <text x="615" y="82"><tspan fill="#00f3ff">[NET]</tspan> Tunnel 0x7F -&gt; ACTIVE</text>
+      <text x="615" y="104"><tspan fill="#00ff41">[OK]</tspan> Compiling neural_core.rs</text>
+      <text x="615" y="126"><tspan fill="#ff0055">[WARN]</tspan> Sleep buffer underflow</text>
+      <text x="615" y="148"><tspan fill="#00ff41">[OK]</tspan> Zero-day patched: 0 bugs</text>
+      <text x="615" y="170"><tspan fill="#00f3ff">[GIT]</tspan> Pushing commits to main</text>
+      <!-- Duplicated for seamless loop -->
+      <text x="615" y="192"><tspan fill="#00ff41">[OK]</tspan> Mounting /dev/coffee0</text>
+      <text x="615" y="214"><tspan fill="#00f3ff">[NET]</tspan> Tunnel 0x7F -&gt; ACTIVE</text>
+      <text x="615" y="236"><tspan fill="#00ff41">[OK]</tspan> Compiling neural_core.rs</text>
+      <text x="615" y="258"><tspan fill="#ff0055">[WARN]</tspan> Sleep buffer underflow</text>
+      <text x="615" y="280"><tspan fill="#00ff41">[OK]</tspan> Zero-day patched: 0 bugs</text>
+      <text x="615" y="302"><tspan fill="#00f3ff">[GIT]</tspan> Pushing commits to main</text>
+    </g>
+  </g>
+
+  <!-- Loading Bar -->
+  <text x="615" y="210" class="mono" font-size="10" fill="#8fa8be">NEURAL_SYNC_PROGRESS:</text>
+  <rect x="615" y="218" width="260" height="8" rx="4" fill="#131c2e"/>
+  <rect x="615" y="218" width="260" height="8" rx="4" fill="#00ff41" class="load-bar"/>
+</svg>

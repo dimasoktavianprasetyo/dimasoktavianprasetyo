@@ -1,3 +1,5 @@
+<h2 align="center">Hi there 👋 — <code>welcome to my code lab</code></h2>
+
 <!-- HERO ANIMATED BANNER -->
 <p align="center">
   <img src="./assets/cyber-header.svg" alt="Cyber Header" width="100%" />

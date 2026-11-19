@@ -41,8 +41,13 @@
 
 ### `// ARSENAL & WEAPONRY`
 
+<!-- HUMAN NEURAL CORTEX SYNAPSE TOPOLOGY OF SKILLS & TOOLS -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,java,rust,solidity,ts,js,py,bash,spring,react,nextjs,nodejs,fastapi,graphql,postgres,redis,docker,kubernetes,kafka,nginx,aws,linux,kali,git&perline=8&theme=dark" alt="Tech Stack" />
+  <img src="./assets/neural-synapse-arsenal.svg" alt="Human Neural Cortex Skill Topology" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,java,rust,solidity,ts,js,py,bash,spring,react,nextjs,nodejs,fastapi,graphql,postgres,redis,docker,kubernetes,kafka,nginx,aws,linux,kali,git,flutter,dart,kotlin,c,cpp,nestjs,tailwind,gradle,gcp,cloudflare,firebase,terraform,mongodb,mysql,elasticsearch,grafana&perline=8&theme=dark" alt="Tech Stack" />
 </p>
 
 <p align="center">
@@ -69,6 +74,8 @@
 <!-- ANIMATED CONTRIBUTION SNAKE (Membutuhkan workflow .github/workflows/snake.yml) -->
 ### `// CONTRIBUTION PAYLOAD INGESTION`
 
+> *"Every commit is a pulse in a lifelong archive of creation, spanning personal R&D, resilient architectures, and borderless engineering. Driven by an unyielding pursuit of mastery, each line of code is forged to nurture continuous growth and contribute meaningfully to the advancement of technology on the global stage."*
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/dimasoktavianprasetyo/dimasoktavianprasetyo/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%" />
 </p>
@@ -77,17 +84,27 @@
   <img src="./assets/neon-divider.svg" width="100%" />
 </p>
 
-### `// ENCRYPTED CHANNELS`
+### `// CONNECT & COLLABORATE`
 
 <p align="center">
+  <i>"Every groundbreaking system begins with a single connection.<br/>Reach out through any of the channels below, let’s connect, collaborate, and engineer the future together."</i>
+</p>
+
+<p align="center">
+  <a href="https://www.dimasoktavianprasetyo.com">
+    <img src="https://img.shields.io/badge/WWW.DIMASOKTAVIANPRASETYO.COM-060911?style=for-the-badge&logo=googlechrome&logoColor=FFD700" alt="Website" />
+  </a>
   <a href="https://github.com/dimasoktavianprasetyo">
-    <img src="https://img.shields.io/badge/GITHUB-060911?style=for-the-badge&logo=github&logoColor=00FF41" />
+    <img src="https://img.shields.io/badge/GITHUB-060911?style=for-the-badge&logo=github&logoColor=00FF41" alt="GitHub" />
   </a>
   <a href="https://linkedin.com/in/dimasoktavianprasetyo">
-    <img src="https://img.shields.io/badge/LINKEDIN-060911?style=for-the-badge&logo=linkedin&logoColor=00F3FF" />
+    <img src="https://img.shields.io/badge/LINKEDIN-060911?style=for-the-badge&logo=htmx&logoColor=00F3FF" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/benkbenkers">
+    <img src="https://img.shields.io/badge/IG_%40BENKBENKERS-060911?style=for-the-badge&logo=instagram&logoColor=FF0055" alt="Instagram" />
   </a>
   <a href="mailto:halo@dimasoktavianprasetyo.com">
-    <img src="https://img.shields.io/badge/ENCRYPTED_MAIL-060911?style=for-the-badge&logo=maildotru&logoColor=FF0055" />
+    <img src="https://img.shields.io/badge/HALO%40DIMASOKTAVIANPRASETYO.COM-060911?style=for-the-badge&logo=maildotru&logoColor=00FF41" alt="Email" />
   </a>
 </p>
 

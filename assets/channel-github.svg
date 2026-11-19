@@ -1,62 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 88" width="284" height="88">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
   <defs>
-    <linearGradient id="bgGh" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="55%" stop-color="#0a131a"/>
-      <stop offset="100%" stop-color="#05070e"/>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a14"/>
+      <stop offset="100%" stop-color="#101622"/>
     </linearGradient>
-    <linearGradient id="ghAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="gridGh" width="14" height="14" patternUnits="userSpaceOnUse">
-      <path d="M 14 0 L 0 0 0 14" fill="none" stroke="#00ff41" stroke-opacity="0.04" stroke-width="1"/>
-    </pattern>
-    <clipPath id="clipGh">
-      <rect width="284" height="88" rx="9"/>
-    </clipPath>
-    <style><![CDATA[
-      .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
-      .scan { animation: scanSlide 4.8s linear infinite -0.7s; }
-      @keyframes scanSlide {
-        0%   { transform: translateX(-110px); }
-        100% { transform: translateX(310px); }
-      }
-      .led { animation: ledPulse 1.8s ease-in-out infinite -0.2s; }
-      @keyframes ledPulse {
-        0%, 100% { opacity: 1; }
-        50%      { opacity: 0.28; }
-      }
-    ]]></style>
+    <radialGradient id="glG" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e6edf3" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#e6edf3" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-
-  <g clip-path="url(#clipGh)">
-    <rect width="284" height="88" rx="9" fill="url(#bgGh)"/>
-    <rect width="284" height="88" rx="9" fill="url(#gridGh)"/>
-    <rect x="0" y="0" width="90" height="88" fill="url(#ghAccent)" class="scan"/>
-
-    <rect x="1" y="1" width="282" height="86" rx="8.5" fill="none" stroke="#00ff41" stroke-opacity="0.24" stroke-width="1"/>
-    <path d="M2 13 L2 2 L13 2 M271 2 L282 2 L282 13 M2 75 L2 86 L13 86 M271 86 L282 86 L282 75"
-          fill="none" stroke="#00ff41" stroke-width="1.6" stroke-linecap="round"/>
-
-    <!-- Icon Module -->
-    <circle cx="38" cy="44" r="20" fill="#00ff41" fill-opacity="0.06" stroke="#00ff41" stroke-opacity="0.32" stroke-width="1.1"/>
-    <g transform="translate(26, 32)">
-      <path fill="#00ff41" d="M12 1.5C6.2 1.5 1.5 6.2 1.5 12c0 4.64 3.01 8.58 7.18 9.97.52.1.71-.23.71-.5 0-.25-.01-1.08-.01-1.96-2.92.63-3.54-1.24-3.54-1.24-.48-1.21-1.17-1.53-1.17-1.53-.95-.65.07-.64.07-.64 1.06.07 1.61 1.08 1.61 1.08.94 1.6 2.46 1.14 3.06.87.09-.68.37-1.14.67-1.4-2.33-.26-4.78-1.17-4.78-5.19 0-1.15.41-2.08 1.08-2.82-.11-.27-.47-1.33.1-2.78 0 0 .88-.28 2.89 1.08.84-.23 1.74-.35 2.63-.35.89 0 1.79.12 2.63.35 2.01-1.36 2.89-1.08 2.89-1.08.57 1.45.21 2.51.1 2.78.67.74 1.08 1.67 1.08 2.82 0 4.03-2.46 4.92-4.8 5.18.38.33.71.97.71 1.95 0 1.41-.01 2.55-.01 2.9 0 .28.19.61.72.5A10.51 10.51 0 0 0 22.5 12c0-5.8-4.7-10.5-10.5-10.5z"/>
-    </g>
-
-    <!-- Header -->
-    <text x="68" y="25" class="mono" font-size="9.5" fill="#00ff41" letter-spacing="1.1" font-weight="bold">03 // GITHUB</text>
-    <circle cx="264" cy="21" r="2.5" fill="#00ff41" class="led"/>
-
-    <!-- Main Handle -->
-    <text x="68" y="49" class="mono" font-size="12.5" font-weight="bold" fill="#f0f6fc">@dimasoktavianprasetyo</text>
-
-    <!-- Footer -->
-    <line x1="68" y1="60" x2="270" y2="60" stroke="#00ff41" stroke-opacity="0.16" stroke-width="1"/>
-    <text x="68" y="74" class="mono" font-size="9" fill="#8b949e">REPOS &amp; COMMITS</text>
-    <text x="270" y="74" class="mono" font-size="9" fill="#00ff41" text-anchor="end" font-weight="bold">[ FOLLOW → ]</text>
+  <rect x="1" y="1" width="52" height="52" rx="13" fill="url(#bgG)" stroke="#e6edf3" stroke-opacity="0.35" stroke-width="1.2"/>
+  <circle cx="27" cy="27" r="22" fill="url(#glG)"/>
+  <path d="M2 10 L2 2 L10 2 M44 2 L52 2 L52 10 M2 44 L2 52 L10 52 M44 52 L52 52 L52 44" fill="none" stroke="#e6edf3" stroke-width="1.5" stroke-linecap="round"/>
+  <g transform="translate(15, 15)">
+    <path fill="#e6edf3" d="M12 1.5C6.2 1.5 1.5 6.2 1.5 12c0 4.64 3.01 8.58 7.18 9.97.52.1.71-.23.71-.5 0-.25-.01-1.08-.01-1.96-2.92.63-3.54-1.24-3.54-1.24-.48-1.21-1.17-1.53-1.17-1.53-.95-.65.07-.64.07-.64 1.06.07 1.61 1.08 1.61 1.08.94 1.6 2.46 1.14 3.06.87.09-.68.37-1.14.67-1.4-2.33-.26-4.78-1.17-4.78-5.19 0-1.15.41-2.08 1.08-2.82-.11-.27-.47-1.33.1-2.78 0 0 .88-.28 2.89 1.08.84-.23 1.74-.35 2.63-.35.89 0 1.79.12 2.63.35 2.01-1.36 2.89-1.08 2.89-1.08.57 1.45.21 2.51.1 2.78.67.74 1.08 1.67 1.08 2.82 0 4.03-2.46 4.92-4.8 5.18.38.33.71.97.71 1.95 0 1.41-.01 2.55-.01 2.9 0 .28.19.61.72.5A10.51 10.51 0 0 0 22.5 12c0-5.8-4.7-10.5-10.5-10.5z"/>
   </g>
 </svg>
-

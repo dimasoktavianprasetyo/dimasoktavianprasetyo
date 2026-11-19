@@ -41,9 +41,9 @@
 
 ### `// ARSENAL & WEAPONRY`
 
-<!-- HUMAN NEURAL CORTEX SYNAPSE TOPOLOGY OF SKILLS & TOOLS -->
+<!-- 4D NEURAL PLEXUS HYPER-SYNAPTIC TOPOLOGY OF SKILLS & TOOLS -->
 <p align="center">
-  <img src="./assets/neural-synapse-arsenal.svg" alt="Human Neural Cortex Skill Topology" width="100%" />
+  <img src="./assets/neural-plexus-4d.svg" alt="4D Neural Plexus Skill Topology" width="100%" />
 </p>
 
 <p align="center">
@@ -90,28 +90,7 @@
   <i>"Every groundbreaking system begins with a single connection. I dream of a future we write together, where code is so remarkably alive that it bridges minds across borders and turns bold visions into reality. Reach out through any of the channels below, let’s connect, collaborate, and engineer the future together."</i>
 </p>
 
-<!-- CUSTOM ANIMATED CYBER-OPS CHANNEL CONSOLE -->
+<!-- CUSTOM CYBER-OPS CHANNEL ICONS -->
 <p align="center">
-  <a href="https://www.dimasoktavianprasetyo.com">
-    <img src="./assets/channel-web.svg" alt="Website - dimasoktavianprasetyo.com" width="48%" />
-  </a>
-  <a href="mailto:halo@dimasoktavianprasetyo.com">
-    <img src="./assets/channel-email.svg" alt="Email - halo@dimasoktavianprasetyo.com" width="48%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/dimasoktavianprasetyo">
-    <img src="./assets/channel-github.svg" alt="GitHub - @dimasoktavianprasetyo" width="32%" />
-  </a>
-  <a href="https://linkedin.com/in/dimasoktavianprasetyo">
-    <img src="./assets/channel-linkedin.svg" alt="LinkedIn - in/dimasoktavianprasetyo" width="32%" />
-  </a>
-  <a href="https://instagram.com/benkbenkers">
-    <img src="./assets/channel-instagram.svg" alt="Instagram - @benkbenkers" width="32%" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:060911,50:003b14,100:00f3ff&height=90&section=footer&animation=twinkling" width="100%" />
+  <a href="https://www.dimasoktavianprasetyo.com"><img src="./assets/channel-web.svg" alt="Website - dimasoktavianprasetyo.com" width="54" height="54" /></a>&nbsp;&nbsp;<a href="mailto:halo@dimasoktavianprasetyo.com"><img src="./assets/channel-email.svg" alt="Email - halo@dimasoktavianprasetyo.com" width="54" height="54" /></a>&nbsp;&nbsp;<a href="https://github.com/dimasoktavianprasetyo"><img src="./assets/channel-github.svg" alt="GitHub - @dimasoktavianprasetyo" width="54" height="54" /></a>&nbsp;&nbsp;<a href="https://linkedin.com/in/dimasoktavianprasetyo"><img src="./assets/channel-linkedin.svg" alt="LinkedIn - in/dimasoktavianprasetyo" width="54" height="54" /></a>&nbsp;&nbsp;<a href="https://instagram.com/benkbenkers"><img src="./assets/channel-instagram.svg" alt="Instagram - @benkbenkers" width="54" height="54" /></a>
 </p>

@@ -84,10 +84,19 @@
         20%  { opacity: 0.65; }
         100% { transform: translate(12px, -96px) scale(1.9); opacity: 0; }
       }
-      .neon-flicker { animation: flicker 4.5s infinite; }
-      @keyframes flicker {
-        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
-        20%, 24%, 55% { opacity: 0.45; }
+      .cn-cyan { animation: cnCyan 2.8s infinite steps(2, end); }
+      .cn-mag  { animation: cnMag  2.8s infinite steps(2, end); }
+      @keyframes cnCyan {
+        0%, 82%, 100% { transform: translate(0, 0); opacity: 0; }
+        84% { transform: translate(-3.5px, -1.5px); opacity: 0.85; }
+        88% { transform: translate(2.5px, 1px); opacity: 0.75; }
+        92% { transform: translate(-2px, 1.5px); opacity: 0.85; }
+      }
+      @keyframes cnMag {
+        0%, 80%, 100% { transform: translate(0, 0); opacity: 0; }
+        83% { transform: translate(3.5px, 1.5px); opacity: 0.85; }
+        87% { transform: translate(-2.5px, -1px); opacity: 0.75; }
+        91% { transform: translate(2px, -1.5px); opacity: 0.85; }
       }
       .rec-blink { animation: recPulse 1.2s step-end infinite; }
       @keyframes recPulse {
@@ -148,7 +157,13 @@
     <text x="858" y="47" class="mono" font-size="11" fill="#d4af37" text-anchor="end">FILE #0x001</text>
     <line x1="346" y1="59" x2="860" y2="59" stroke="#d4af37" stroke-opacity="0.25" stroke-width="1"/>
 
-    <text x="350" y="92" class="serif neon-flicker" font-size="25" font-weight="bold" fill="url(#goldGrad)" letter-spacing="2">
+    <text x="350" y="92" class="serif cn-cyan" font-size="25" font-weight="bold" fill="#00f3ff" letter-spacing="2">
+      CODE NOSTRA // DON DIMAS
+    </text>
+    <text x="350" y="92" class="serif cn-mag" font-size="25" font-weight="bold" fill="#ff0055" letter-spacing="2">
+      CODE NOSTRA // DON DIMAS
+    </text>
+    <text x="350" y="92" class="serif" font-size="25" font-weight="bold" fill="url(#goldGrad)" letter-spacing="2">
       CODE NOSTRA // DON DIMAS
     </text>
 
